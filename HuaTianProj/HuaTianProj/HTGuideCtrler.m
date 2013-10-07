@@ -8,6 +8,9 @@
 
 #import "HTGuideCtrler.h"
 
+#ifndef __GUID_IMAGE__NUM
+#define __GUID_IMAGE__NUM  4
+#endif
 @interface HTGuideCtrler ()
 
 @end
@@ -26,21 +29,20 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     
-//    CGRect curDeviceRect = [[UIScreen mainScreen]bounds];
-//    [[self view] setBounds:curDeviceRect];
+    CGRect curDeviceRect = __DEVICE_SCREEN__BOUNDS;
+    [[self view] setBounds:curDeviceRect];
     
-    CGSize curDeviceSize = [[UIScreen mainScreen]bounds].size;
+    CGSize curDeviceSize = __DEVICE_SCREEN__SIZE;
     UIScrollView * theScrView = (UIScrollView *)[[self view]viewWithTag:1001];
-    [theScrView setContentSize:CGSizeMake(curDeviceSize.width*4,curDeviceSize.height)];
-    for (int i = 0; i < 4; i++) {
+    
+    [theScrView setContentSize:CGSizeMake(curDeviceSize.width*__GUID_IMAGE__NUM,curDeviceSize.height)];
+    
+    for (int i = 0; i < __GUID_IMAGE__NUM; i++) {
         UIImage *theImage = [UIImage imageNamed:[NSString stringWithFormat:@"Guid_%d",i+1]];
         UIImageView * imageView_1 = [[UIImageView alloc]initWithFrame:CGRectMake(curDeviceSize.width*i,0,curDeviceSize.width,curDeviceSize.height)];
         [imageView_1 setImage:theImage];
         [theScrView addSubview:imageView_1];
     }
-
-    
-    
 }
 - (void)viewDidLoad
 {

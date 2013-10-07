@@ -24,10 +24,14 @@
 		2F43304417FFCC2E00B682FC /* HuaTianProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F43304317FFCC2E00B682FC /* HuaTianProjTests.m */; };
 		2F43305317FFF42400B682FC /* HTGuideCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F43305217FFF42400B682FC /* HTGuideCtrler.m */; };
 		2F43305617FFF4AB00B682FC /* HTTabBarCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F43305517FFF4AB00B682FC /* HTTabBarCtrler.m */; };
-		2F43305A17FFF9FF00B682FC /* HTGuidScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F43305917FFF9FF00B682FC /* HTGuidScrollView.m */; };
 		2F4330A41800262600B682FC /* HTAddGuideCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4330A31800262600B682FC /* HTAddGuideCtrler.m */; };
 		2F4330A7180026F200B682FC /* HTaddTabBarCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4330A6180026F200B682FC /* HTaddTabBarCtrler.m */; };
 		2F4330AA1800277100B682FC /* HTGuideToTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4330A91800277100B682FC /* HTGuideToTabBar.m */; };
+		2FE6EC541802705700FD48FC /* HTAddHomNavCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6EC531802705700FD48FC /* HTAddHomNavCtrler.m */; };
+		2FE6EC581802713700FD48FC /* HTAddMsgNavCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6EC571802713700FD48FC /* HTAddMsgNavCtrler.m */; };
+		2FE6EC5B180271E400FD48FC /* HTAddSquareNavCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6EC5A180271E400FD48FC /* HTAddSquareNavCtrler.m */; };
+		2FE6EC61180272DF00FD48FC /* HTAddProfileNavCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6EC60180272DF00FD48FC /* HTAddProfileNavCtrler.m */; };
+		2FE6EC6418029F3400FD48FC /* HTAddRelationNavCtrler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6EC6318029F3400FD48FC /* HTAddRelationNavCtrler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,14 +69,22 @@
 		2F43305217FFF42400B682FC /* HTGuideCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTGuideCtrler.m; sourceTree = "<group>"; };
 		2F43305417FFF4AB00B682FC /* HTTabBarCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTabBarCtrler.h; sourceTree = "<group>"; };
 		2F43305517FFF4AB00B682FC /* HTTabBarCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTabBarCtrler.m; sourceTree = "<group>"; };
-		2F43305817FFF9FF00B682FC /* HTGuidScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTGuidScrollView.h; path = FirLevelViews/HTGuidScrollView.h; sourceTree = "<group>"; };
-		2F43305917FFF9FF00B682FC /* HTGuidScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTGuidScrollView.m; path = FirLevelViews/HTGuidScrollView.m; sourceTree = "<group>"; };
 		2F4330A21800262600B682FC /* HTAddGuideCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTAddGuideCtrler.h; path = FirLevelControllers/HTAddGuideCtrler.h; sourceTree = "<group>"; };
 		2F4330A31800262600B682FC /* HTAddGuideCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTAddGuideCtrler.m; path = FirLevelControllers/HTAddGuideCtrler.m; sourceTree = "<group>"; };
 		2F4330A5180026F200B682FC /* HTaddTabBarCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTaddTabBarCtrler.h; path = FirLevelControllers/HTaddTabBarCtrler.h; sourceTree = "<group>"; };
 		2F4330A6180026F200B682FC /* HTaddTabBarCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTaddTabBarCtrler.m; path = FirLevelControllers/HTaddTabBarCtrler.m; sourceTree = "<group>"; };
 		2F4330A81800277100B682FC /* HTGuideToTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTGuideToTabBar.h; path = FirLevelControllers/HTGuideToTabBar.h; sourceTree = "<group>"; };
 		2F4330A91800277100B682FC /* HTGuideToTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTGuideToTabBar.m; path = FirLevelControllers/HTGuideToTabBar.m; sourceTree = "<group>"; };
+		2FE6EC521802705700FD48FC /* HTAddHomNavCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTAddHomNavCtrler.h; path = SecLevelControllers/HTAddHomNavCtrler.h; sourceTree = "<group>"; };
+		2FE6EC531802705700FD48FC /* HTAddHomNavCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTAddHomNavCtrler.m; path = SecLevelControllers/HTAddHomNavCtrler.m; sourceTree = "<group>"; };
+		2FE6EC561802713700FD48FC /* HTAddMsgNavCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAddMsgNavCtrler.h; sourceTree = "<group>"; };
+		2FE6EC571802713700FD48FC /* HTAddMsgNavCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAddMsgNavCtrler.m; sourceTree = "<group>"; };
+		2FE6EC59180271E400FD48FC /* HTAddSquareNavCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTAddSquareNavCtrler.h; path = SecLevelControllers/HTAddSquareNavCtrler.h; sourceTree = "<group>"; };
+		2FE6EC5A180271E400FD48FC /* HTAddSquareNavCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTAddSquareNavCtrler.m; path = SecLevelControllers/HTAddSquareNavCtrler.m; sourceTree = "<group>"; };
+		2FE6EC5F180272DF00FD48FC /* HTAddProfileNavCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTAddProfileNavCtrler.h; path = SecLevelControllers/HTAddProfileNavCtrler.h; sourceTree = "<group>"; };
+		2FE6EC60180272DF00FD48FC /* HTAddProfileNavCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTAddProfileNavCtrler.m; path = SecLevelControllers/HTAddProfileNavCtrler.m; sourceTree = "<group>"; };
+		2FE6EC6218029F3400FD48FC /* HTAddRelationNavCtrler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTAddRelationNavCtrler.h; path = SecLevelControllers/HTAddRelationNavCtrler.h; sourceTree = "<group>"; };
+		2FE6EC6318029F3400FD48FC /* HTAddRelationNavCtrler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTAddRelationNavCtrler.m; path = SecLevelControllers/HTAddRelationNavCtrler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +144,7 @@
 		2F43301B17FFCC2D00B682FC /* HuaTianProj */ = {
 			isa = PBXGroup;
 			children = (
-				2F43305717FFF9AA00B682FC /* FirLevelViews */,
+				2FE6EC5118026FFE00FD48FC /* SecLevelControllers */,
 				2F43304D17FFF30700B682FC /* FirLevelControllers */,
 				2F43302417FFCC2D00B682FC /* HTAppDelegate.h */,
 				2F43302517FFCC2D00B682FC /* HTAppDelegate.m */,
@@ -192,13 +204,29 @@
 			name = FirLevelControllers;
 			sourceTree = "<group>";
 		};
-		2F43305717FFF9AA00B682FC /* FirLevelViews */ = {
+		2FE6EC5118026FFE00FD48FC /* SecLevelControllers */ = {
 			isa = PBXGroup;
 			children = (
-				2F43305817FFF9FF00B682FC /* HTGuidScrollView.h */,
-				2F43305917FFF9FF00B682FC /* HTGuidScrollView.m */,
+				2FE6EC55180270D900FD48FC /* SBSegues */,
 			);
-			name = FirLevelViews;
+			name = SecLevelControllers;
+			sourceTree = "<group>";
+		};
+		2FE6EC55180270D900FD48FC /* SBSegues */ = {
+			isa = PBXGroup;
+			children = (
+				2FE6EC521802705700FD48FC /* HTAddHomNavCtrler.h */,
+				2FE6EC531802705700FD48FC /* HTAddHomNavCtrler.m */,
+				2FE6EC561802713700FD48FC /* HTAddMsgNavCtrler.h */,
+				2FE6EC571802713700FD48FC /* HTAddMsgNavCtrler.m */,
+				2FE6EC59180271E400FD48FC /* HTAddSquareNavCtrler.h */,
+				2FE6EC5A180271E400FD48FC /* HTAddSquareNavCtrler.m */,
+				2FE6EC5F180272DF00FD48FC /* HTAddProfileNavCtrler.h */,
+				2FE6EC60180272DF00FD48FC /* HTAddProfileNavCtrler.m */,
+				2FE6EC6218029F3400FD48FC /* HTAddRelationNavCtrler.h */,
+				2FE6EC6318029F3400FD48FC /* HTAddRelationNavCtrler.m */,
+			);
+			name = SBSegues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,12 +330,16 @@
 			files = (
 				2F43305317FFF42400B682FC /* HTGuideCtrler.m in Sources */,
 				2F4330AA1800277100B682FC /* HTGuideToTabBar.m in Sources */,
+				2FE6EC61180272DF00FD48FC /* HTAddProfileNavCtrler.m in Sources */,
 				2F43302F17FFCC2D00B682FC /* HTViewController.m in Sources */,
+				2FE6EC541802705700FD48FC /* HTAddHomNavCtrler.m in Sources */,
 				2F43302617FFCC2D00B682FC /* HTAppDelegate.m in Sources */,
+				2FE6EC581802713700FD48FC /* HTAddMsgNavCtrler.m in Sources */,
 				2F4330A7180026F200B682FC /* HTaddTabBarCtrler.m in Sources */,
+				2FE6EC5B180271E400FD48FC /* HTAddSquareNavCtrler.m in Sources */,
+				2FE6EC6418029F3400FD48FC /* HTAddRelationNavCtrler.m in Sources */,
 				2F43302217FFCC2D00B682FC /* main.m in Sources */,
 				2F4330A41800262600B682FC /* HTAddGuideCtrler.m in Sources */,
-				2F43305A17FFF9FF00B682FC /* HTGuidScrollView.m in Sources */,
 				2F43305617FFF4AB00B682FC /* HTTabBarCtrler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +561,7 @@
 				2F43304917FFCC2E00B682FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F43304A17FFCC2E00B682FC /* Build configuration list for PBXNativeTarget "HuaTianProjTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +570,7 @@
 				2F43304C17FFCC2E00B682FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

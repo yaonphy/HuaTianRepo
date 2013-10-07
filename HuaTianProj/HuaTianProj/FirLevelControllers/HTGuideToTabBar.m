@@ -11,6 +11,15 @@
 @implementation HTGuideToTabBar
 -(void)perform
 {
+
+    UIViewController * sourceCtrler = [self sourceViewController];
+    UIViewController * destCtrler = [self destinationViewController];
+    UIViewController * parentCtrler = [sourceCtrler parentViewController];
+
+    [[sourceCtrler view] removeFromSuperview];
+    [sourceCtrler removeFromParentViewController];
+    [[parentCtrler view] addSubview:[destCtrler view]];
+    [parentCtrler addChildViewController:destCtrler];
     
 }
 @end

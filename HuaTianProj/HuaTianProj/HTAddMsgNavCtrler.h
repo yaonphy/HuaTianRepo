@@ -1,13 +1,13 @@
 //
-//  HTGuidScrollView.h
+//  HTAddMsgNavCtrler.h
 //  HuaTianProj
 //
-//  Created by yang on 13-10-5.
+//  Created by yang on 13-10-7.
 //  Copyright (c) 2013年 yaonphy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface HTGuidScrollView : UIScrollView
+@interface HTAddMsgNavCtrler : UIStoryboardSegue
 
 @end

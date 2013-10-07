@@ -14,3 +14,40 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+// for adapting 3-inch and 4-inch SCREEN  *****/
+// CGRect bounds
+#ifndef __DEVICE_SCREEN__BOUNDS
+#define __DEVICE_SCREEN__BOUNDS [[UIScreen mainScreen]bounds]
+#endif
+// CGSize size
+#ifndef __DEVICE_SCREEN__SIZE
+#define __DEVICE_SCREEN__SIZE [[UIScreen mainScreen]bounds].size
+#endif
+
+// for adapting 3-inch and 4-inch SCREEN  *****/
+
+// get the StandardUserDefaults *****/
+#ifndef __STANDARD_USER__DEFAULTS
+#define __STANDARD_USER__DEFAULTS [NSUserDefaults standardUserDefaults]
+#endif
+// get the StandardUserDefaults *****/
+
+// num of buttons of tabBarController ****/
+#ifndef __TABBAR_BTN__NUM
+#define __TABBAR_BTN__NUM 5
+#endif
+// num of buttons of tabBarController ****/
+
+// in the tabBarController,once a button is selected,a subview corresponding to the button will be added to the controller'view.inorder to remove these subviews faster,I use the same tag to them ****/
+#ifndef __TABBAR_BELOW_VIEW__TAG
+#define __TABBAR_BELOW_VIEW__TAG 221122
+#endif
+//  ****//
+
+//   the tag of view that contains the tabBar buttons,in the tabBarController ****//
+#ifndef __TABBAR_ABOVE_VIEW__TAG
+#define __TABBAR_ABOVE_VIEW__TAG 112211
+#endif
+//  ****//
+
